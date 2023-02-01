@@ -1,0 +1,5 @@
+package recipies.exceptions;
+
+public class DbException extends RuntimeException {
+
+}

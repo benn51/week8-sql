@@ -1,0 +1,5 @@
+package recipies.dao;
+
+public class DbConnection {
+
+}
