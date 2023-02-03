@@ -6,7 +6,7 @@ DROP TABLE IF EXISTS catagory;
 DROP TABLE IF EXISTS recipie;
 
 CREATE TABLE recipie (
- recipie_id  INT  NOT NULL,
+ recipie_id  INT AUTO_INCREMENT  NOT NULL,
  recipie_name VARCHAR(128) NOT NULL,
  notes TEXT,
  num_servings INT,
@@ -18,7 +18,7 @@ CREATE TABLE recipie (
 );
 
 CREATE TABLE catagory (
-catagory_id INT  NOT NULL,
+catagory_id INT AUTO_INCREMENT  NOT NULL,
 catagory_name VARCHAR(64) NOT NULL,
 PRIMARY KEY(catagory_id)
 );
